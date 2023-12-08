@@ -57,7 +57,7 @@ const Home = () => {
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Your Queries Answered: Find Solutions to Common Inquiries About Our
+        Your Queries Answsered: Find Solutions to Common Inquiries About Our
         Services in Our Frequently Asked Questions Section.
       </SectionTitle>
       <Faq />
