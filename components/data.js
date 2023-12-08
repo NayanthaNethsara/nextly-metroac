@@ -1,60 +1,66 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  CheckCircleIcon,
+  HeartIcon,
+  AdjustmentsVerticalIcon,
+  LightBulbIcon,
+  WrenchScrewdriverIcon,
+  CogIcon,
+  ClockIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/maintain.png";
+import benefitTwoImg from "../public/img/maintain2.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Services We Offer:",
+  desc: "Choose MetroAC for expert AC installations, routine maintenance, and advanced thermostat integration. Elevate your comfort with our specialized services, ensuring a consistently pleasant environment.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Expert AC Installation Services:",
+      desc: "Swift, Efficient, and Precise Installations for Optimal Performance",
+      icon: <AdjustmentsVerticalIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Reliable AC Repair Services:",
+      desc: "Prompt Diagnoses and Fixes During Convenient Business Hours",
+      icon: <WrenchScrewdriverIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Tailored AC Maintenance Plans",
+      desc: "Ensuring a Smooth and Efficient Operation, Customized to Fit Your Schedule",
+      icon: <CogIcon />,
+    },
+    {
+      title: "Energy-Efficiency Assessment Solutions:",
+      desc: "Recommendations to Enhance Your AC's Efficiency and Save on Bills",
+      icon: <LightBulbIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
+  title: "Why Choose Us?",
   desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Expertise You Can Trust",
+      desc: "Our team consists of highly skilled and certified technicians with years of experience in air conditioning services.",
+      icon: <CheckCircleIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Customer-Centric Approach:",
+      desc: "Your satisfaction is our priority. We take a customer-centric approach, ensuring clear communication, transparent pricing, and a commitment to delivering the best possible service experience.",
+      icon: <HeartIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Timely and Reliable Service",
+      desc: "We value your time, and our commitment to punctuality is unwavering. Count on us to arrive promptly and complete the job within the agreed-upon timeframe, minimizing disruption to your daily routine.",
+      icon: <ClockIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };

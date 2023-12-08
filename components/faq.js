@@ -31,26 +31,28 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "How quickly can I expect an AC installation after booking?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "We aim for swift service, typically scheduling installations within [timeframe] after confirmation.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: " What types of AC repairs do you handle?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Our skilled technicians address a range of issues, from cooling problems to component malfunctions, ensuring prompt fixes.",
+  },
+  {
+    question: "Can I customize a maintenance plan to fit my specific schedule?",
+    answer:
+      "Absolutely! We offer flexible maintenance plans tailored to suit your convenience and ensure uninterrupted operation.",
+  },
+  {
+    question: "How can an energy-efficiency assessment benefit my AC system?",
+    answer:
+      "Our assessment provides personalized recommendations to optimize efficiency, resulting in potential cost savings on your monthly energy bills.",
   },
 ];
 
